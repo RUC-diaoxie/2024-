@@ -13,16 +13,16 @@
 
 令 $\delta_i=a_{i+1}-a_i, \rho=\frac{1-p}{p}$ ，得到 $\delta_i=\rho^i \delta_0$。利用 $\sum_{i=0}^m \delta_i=1$ 推出 $\delta_0=\frac{1}{1+\rho+\cdots+\rho^{m-1}}$，从而化简得到 
 
-\[
+$$
 a_i=\frac{1+\rho+\cdots+\rho^{i-1}}{1+\rho+\cdots+\rho^{m-1}} 
-\]
+$$
 
 即：
 
-\[
+$$
 a_i=\begin{cases}
 \frac{1-\rho^i}{1-\rho^m} & \text{如果 } \rho \neq 1 \\
 \frac{i}{m} & \text{如果 } \rho=1
 \end{cases}
-\]
+$$
 
